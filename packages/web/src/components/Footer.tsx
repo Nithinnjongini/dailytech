@@ -58,6 +58,7 @@ export default function Footer() {
             <div className="footer-links-col">
               <h4>Legal</h4>
               <ul>
+                <li><NavLink to="/mirre-terms">Mirre Terms</NavLink></li>
                 <li><a href="#privacy" onClick={openPrivacy}>Privacy Policy</a></li>
                 <li><a href="#terms" onClick={(e) => { e.preventDefault(); alert('Terms of Service: All algorithms are prototype-only. Use intentionally!'); }}>Terms of Service</a></li>
               </ul>
