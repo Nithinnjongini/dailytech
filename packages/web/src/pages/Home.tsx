@@ -85,6 +85,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Featured VTO Showcase */}
+      <section className="featured-showcase glass-panel">
+        <div className="showcase-content">
+          <span className="product-tag tag-launched" style={{ marginBottom: '16px', display: 'inline-block' }}>Featured Experience</span>
+          <h2>Experience Mirre Neural Try-On</h2>
+          <p>
+            Transform your styling choices with real-time neural rendering. See fabrics drape, colors interact, and garments fit your physical profile instantly. Mirre brings global catalogs directly onto your digital likeness.
+          </p>
+          <ul className="showcase-features">
+            <li>
+              <Sparkles size={16} />
+              <span>Real-time fabric rendering & drape mapping</span>
+            </li>
+            <li>
+              <Sparkles size={16} />
+              <span>Dual-mirror spatial context projection</span>
+            </li>
+            <li>
+              <Sparkles size={16} />
+              <span>Live mobile recording & design catalog matching</span>
+            </li>
+          </ul>
+          <NavLink to="/contact" className="btn btn-primary">
+            Request Demo Access <ArrowRight size={16} />
+          </NavLink>
+        </div>
+        <div className="showcase-image-container">
+          <img 
+            src="/images/mirre_vto_showcase.jpg" 
+            alt="Mirre Virtual Try-On Spatial Mirror Simulation" 
+            className="showcase-image"
+          />
+        </div>
+      </section>
+
       {/* Ecosystem Section Header */}
       <section style={{ padding: '40px 0 80px 0' }}>
         <div className="section-header">

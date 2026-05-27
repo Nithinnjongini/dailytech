@@ -4,6 +4,7 @@ import Footer from './components/Footer.tsx';
 import Home from './pages/Home.tsx';
 import Mission from './pages/Mission.tsx';
 import Contact from './pages/Contact.tsx';
+import MirreTerms from './pages/MirreTerms.tsx';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/mission" element={<Mission />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/mirre-terms" element={<MirreTerms />} />
           </Routes>
         </main>
 
